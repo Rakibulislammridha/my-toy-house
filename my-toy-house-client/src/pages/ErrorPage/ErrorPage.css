@@ -1,0 +1,17 @@
+.error-container img {
+    margin-left: 500px;
+    margin-top: 80px;
+    width: 500px;
+    height: 500px;
+}
+
+.error-container .error-button{
+    background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: white;
+    height: 40px;
+    margin-bottom: 40px;
+    width: 140px;
+}

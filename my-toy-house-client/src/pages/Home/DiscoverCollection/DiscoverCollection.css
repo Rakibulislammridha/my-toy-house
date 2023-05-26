@@ -1,0 +1,25 @@
+.discover-container {
+    font-family: "Lato", sans-serif;
+}
+.discover-container h1 span {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.btn-discover {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 40px;
+}
+
+.discover-image img {
+  width: 600px;
+  height: 300px;
+}

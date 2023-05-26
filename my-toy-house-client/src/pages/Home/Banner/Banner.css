@@ -1,0 +1,15 @@
+.hero {
+  font-family: "Lato", sans-serif;
+}
+.banner-title {
+  background: linear-gradient(90deg, #d2d6f4 0%, #b09be9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.banner-button {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  border: none;
+}

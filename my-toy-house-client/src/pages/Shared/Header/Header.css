@@ -1,0 +1,65 @@
+.navbar {
+  font-family: "Lato", sans-serif;
+}
+.nav-logo img {
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+}
+.nav-title {
+  font-size: 30px;
+  background: linear-gradient(90deg, #7e90fe 0%, #9c80ea 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.nav-routes {
+  margin-right: 50px;
+}
+.user-profile img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.logout-button,
+.login-button {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  width: 70px;
+  height: 30px;
+  padding: inherit;
+}
+
+/* responsive For Mobile Device */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-logo {
+    margin-bottom: 1rem;
+  }
+
+  .nav-title {
+    font-size: 1.5rem;
+  }
+
+  .nav-routes {
+    flex-wrap: wrap;
+  }
+
+  .nav-routes li {
+    margin-bottom: 0.5rem;
+  }
+
+  .user-profile {
+    margin-top: 1rem;
+  }
+}

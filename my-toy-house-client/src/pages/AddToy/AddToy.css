@@ -1,0 +1,8 @@
+.select {
+  width: 470px;
+}
+.add-toy-button {
+  background: linear-gradient(90deg, #7e90fe 0%, #9571f9 100%);
+  border-radius: 8px;
+  border: none;
+}
